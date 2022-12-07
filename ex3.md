@@ -42,7 +42,7 @@ public class pepe {
 
 | Classes | Pizzes | Sortida |
 | ------- | ------ | ------- |
-| 1 | 7| 3 |
+| 1 | 7 | true |
 | 2 | 11 | false |
 | 3 | @ | error |
 
