@@ -13,7 +13,31 @@ El programa retorna true si la comanda es pot portar i false en cas contrari.
 Es demana:
 
 - Fer el codi font del programa.
+
+```
+import java.util.Scanner;
+
+public class pepe {
+    public static void main(String[] args) {
+        Scanner ent =new Scanner(System.in);
+        int maxim;
+        maxim = ent.nextInt();
+        if (maxim < 10 && maxim > 0) {
+            System.out.println("true");
+        } else if (maxim > 10 || maxim < 0){
+            System.out.println("false");
+
+        }
+    }
+}
+``` 
 - Fer la taula amb les particions equivalents i casos vàlids i no vàlids.
+
+| Parametres | Condicions | | Classes valides|
+| ----------- | ----------- | | ----------- |
+| Header | Title | | ed |
+
+
 - Fer la taula amb l'anàlisis de valors límit i casos vàlids i no vàlids.
 
 ### Transports Jean Claude:
