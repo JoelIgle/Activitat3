@@ -33,12 +33,18 @@ public class pepe {
 ``` 
 - Fer la taula amb les particions equivalents i casos vàlids i no vàlids.
 
-| Parametres | Condicions | | Classes valides|
-| ----------- | ----------- | | ----------- |
-| Header | Title | | ed |
+| Parametres | Condicions | Classes valides | Classes no valides |
+| ---------- | ---------- | --------------- | ------------------ |
+| Pizzes | -Un numero <br> -(0,10) | 1.pizzes <= 10 (true) | 2.pizzes > 10 (false) <br> 3.No es numero (error) |
 
 
 - Fer la taula amb l'anàlisis de valors límit i casos vàlids i no vàlids.
+
+| Classes | Pizzes | Sortida |
+| ------- | ------ | ------- |
+| 1 | 7| 3 |
+| 2 | 11 | false |
+| 3 | @ | error |
 
 ### Transports Jean Claude:
 
