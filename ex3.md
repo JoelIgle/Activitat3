@@ -46,6 +46,14 @@ public class pepe {
 | 2 | 11 | false |
 | 3 | @ | error |
 
+- Proves valors límits
+
+| Classes | Pizzes | Sortida |
+| ------- | ------ | ------- |
+| 4 | 10 | true |
+| 5 | 9 | true |
+| 6 | 11 | false |
+
 ### Transports Jean Claude:
 
 Un programa gestiona si una càrrega es pot portar amb una furgoneta.
